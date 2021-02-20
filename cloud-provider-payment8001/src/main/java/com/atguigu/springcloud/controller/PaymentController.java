@@ -28,7 +28,7 @@ public class PaymentController {
     @PostMapping(value = "/payment/create")
     public CommonResult create(@RequestBody Payment payment) {
         int result = paymentService.create(payment);
-        log.info("========================插入结果:" + result);
+        log.info("========================插入结果144:" + result);
         if (result > 0) {
             return new CommonResult(200, "插入成功,serverPort:" + serverPort, result);
         } else {
