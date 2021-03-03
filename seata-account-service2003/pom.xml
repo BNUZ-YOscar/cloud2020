@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>seata-storage-service2002</artifactId>
+    <artifactId>seata-account-service2003</artifactId>
 
     <dependencies>
         <!--nacos-->
@@ -66,5 +66,4 @@
             <optional>true</optional>
         </dependency>
     </dependencies>
-
 </project>
